@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>HTML Contact Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="body-container">
+        <h1 class="text-center">Survey Form</h1>
+        Feel Free to Answer The question below based on your own experience.
+        if you are not convenient in answering a particular question please
+        skip it by answering "NO". every answer would be appreciated. thank you for your time.
+        <form class="form-container">
+            <div class="input">Your Name</div>
+            <input type="text" placeholder="Enter Your Name" class="input-field" />
+            <div class="input">Your Email Address</div>
+            <input type="text" placeholder="user@user.com" class="input-field" />
+            <div class="input">Your Phone Number</div>
+            <input type="text" class="input-field" placeholder="9999999999" />
+            <div class="input">Where Do You Live?</div>
+            <select class="select" autofocus>
+                <option value="NONE">Select</option>
+                <option value="INDIA">INDIA</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="PAKISTAN">PAKISTAN</option>
+            </select>
+            <fieldset class="selectRadio">
+                <legend>Age</legend>
+                <input type="radio">
+                  <label class="spacing">15-20</label>
+                <input class="legend" type="radio">
+                  <label>41-50</label><br>
+                <input class="legend" type="radio">
+                  <label class="spacing">21-30</label>
+                <input class="legend" type="radio">
+                  <label>Prefer not to say</label><br>
+                <input class="legend" type="radio">
+                  <label>31-40</label>
+            </fieldset>
+            <div class="input">How would you rate yourself in coding?</div>
+            <div style="font-weight: bold;margin-top: 8px;">
+                <input type="radio" />
+                Beginner<br>
+                <input type="radio" />
+                Intermediate<br>
+                <input type="radio" />
+                Advanced
+
+                <div class="input">Have you ever appeared in any coding contest?</div>
+
+                <input type="radio" />
+                Yes<br>
+                <input type="radio" />
+                No
+            </div>
+            <div class="input">Discuss what drives your passion for coding and outline your appreciation in the field.
+            </div>
+            <textarea class="text-area"></textarea>
+
+            <div class="input">What are some of challenges you face while coding?</div>
+            <textarea class="text-area"></textarea>
+            <div class="input">Please list the Data Structures you have a strong understanding of.</div>
+            <textarea class="text-area"></textarea><br>
+            <input type="submit" name="Submit Form" class="btn-submit" />
+        </form>
+    </div>
+</body>
+
+</html>

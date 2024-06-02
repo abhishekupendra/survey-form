@@ -1,0 +1,77 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(#a5d6a7, #4caf50);
+}
+
+.body-container {
+  border: #91949d 1px solid;
+  border-radius: 7px;
+  font-size: 1em;
+  padding-top: 10px;
+  margin: 2% 12%;
+  background: white;
+  height: 93%;
+  padding: 12px 12px 0px 36px;
+}
+
+.text-center {
+  color: green;
+}
+
+.form-container {
+  margin-top: 4%;
+  column-count: 2;
+}
+
+.input {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.subject-option {
+  width: 75%;
+  font-weight: bold;
+}
+
+.input-field {
+  width: 75%;
+  padding: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.selectRadio {
+  width: 75%;
+  font-weight: bold;
+}
+
+.select {
+  width: 75%;
+  padding: 4px;
+  border-radius: 4px;
+  color: green;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: green;
+  font-weight: bold;
+}
+
+.text-area {
+  width: 75%;
+  height: 60px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.btn-submit {
+  width: 75%;
+  background-color: green;
+  margin-top: 4%;
+  font-weight: bold;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  border: green;
+}
